@@ -1,0 +1,9 @@
+area,strip_boxes,fifth_box,common_side,shift,note
+622,1x2x103 2x5x43 2x7x33 2x13x19,2x3x61,2,1/3,"nets A, B and C (this repository)"
+1228,2x4x101 3x4x86 4x14x31 4x17x26,4x6x59,4,1/3,
+1408,2x4x116 4x4x86 4x14x36 4x20x26,4x6x68,4,1/3,design: the lattice of the 352 nets [4] at double scale
+1588,2x4x131 4x5x86 4x14x41 4x23x26,4x6x77,4,1/3,design chosen in advance by the 1/3 rule
+1768,1x4x176 4x8x71 4x11x56 4x21x32,4x16x41,4,1/3,design chosen in advance by the 1/3 rule
+1858,3x4x131 4x5x101 4x17x41 4x23x31,4x11x59,4,1/3,design chosen in advance by the 1/3 rule
+1948,2x4x161 4x7x86 4x14x51 4x26x29,4x6x95,4,1/3,design chosen in advance by the 1/3 rule
+2128,2x4x176 4x8x86 4x14x56 4x26x32,4x6x104,4,1/3,"design based on the lattice of [2]: same four strip boxes, another fifth box"

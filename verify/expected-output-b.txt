@@ -1,0 +1,20 @@
+net: 622 cells, connected True, Euler characteristic 1, pinch points 0
+     1x1x155  does not fold
+     1x2x103  FOLDS
+      1x3x77  does not fold
+      1x5x51  does not fold
+      1x7x38  does not fold
+     1x11x25  does not fold
+     1x12x23  does not fold
+      2x3x61  FOLDS
+      2x5x43  FOLDS
+      2x7x33  FOLDS
+     2x13x19  FOLDS
+      3x5x37  does not fold
+      3x7x29  does not fold
+     3x13x17  does not fold
+      5x7x23  does not fold
+      5x9x19  does not fold
+     5x11x16  does not fold
+      7x8x17  does not fold
+     7x11x13  does not fold
