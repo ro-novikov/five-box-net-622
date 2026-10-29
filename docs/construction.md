@@ -17,9 +17,10 @@ bottom and q_t on the top, the four translation lattices are
 
     L(c) = ⟨τ, s + c·τ⟩,   c ∈ {0, c₁, c₂, c₁ + c₂},  c₁ = i/q_b,  c₂ = j/q_t  (i, j integers),
 
-all of covolume 4AB. One edge takes at most two reflections (stated in [2]), and the corners fit only with odd q_b and
-q_t (argued in [4], docs/construction.md section 5) **[proved]** in the notch-and-tab model. So one translate pair
-gives at most four boxes.
+all of covolume 4AB. One edge takes at most two reflections: stated in [2]; **[proved]** for corner pieces of one
+size in a linear model of the corners, and **[computed]** for notches and tabs (all even edge lengths up to 120).
+With notches and tabs the corners fit only with odd q_b and q_t (argued in [4], docs/construction.md section 5)
+**[proved]**. So, in these models, one translate pair gives at most four boxes.
 
 ## 2. The fifth folding
 
@@ -36,10 +37,10 @@ If ⟨τ, s⟩ is the lattice of the kept strip folding, the fifth folding has t
 
 its translation is shifted by λ·s. The covolume is the same, so the fifth pillowcase has the same A·B.
 
-That every further folding of a strip net has this form was shown under a shortness hypothesis on the new pieces
-**[proved under that hypothesis]**. That a strip net has at most one such folding, and so at most five boxes, is **[open]**:
-in every computation two of them never fitted together (exhaustive extensions of the four strip foldings by one and two
-further foldings on several hundred strips; 12 480 six-folding candidates, all infeasible in the exact model).
+Every five-box net found has a fifth folding of this form **[computed]**; whether every further folding of a strip
+net has it is **[open]**. That a strip net has at most one such folding is **[open]** as well: in every computation
+two of them never fitted together (exhaustive extensions of the four strip foldings by one and two further foldings
+on several hundred strips; 12 480 six-folding candidates, all infeasible in the cycle model, a necessary condition).
 
 **The rule for the shift [computed].** About 15 000 lattice designs (pillowcase areas A·B from 100 to 1500) were sorted by λ
 and tested for corner fit (notch/tab labelling of all five foldings at once):

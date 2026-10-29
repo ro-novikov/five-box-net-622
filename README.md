@@ -34,7 +34,8 @@ This work builds on two nets by Reed Silverstein and Conner Silverstein, the 532
 **From earlier work:**
 
 - Four foldings of one strip: its two ends are glued to each other, and each long edge is glued to itself by one of
-  two reflections, which gives four flat "pillowcases" [1]; the edges need an odd number of periods [4].
+  two reflections, which gives four flat "pillowcases" [1]; with notches and tabs the edges need an odd number of
+  periods [4].
 - Notches and tabs that turn the corners of a pillowcase into box corners [1], and an exact integer program that places
   them [4].
 - A five-box net, of 2128 squares [2], which shows that a fifth box beyond the four strip foldings is possible.
