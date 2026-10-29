@@ -17,9 +17,9 @@ bottom and q_t on the top, the four translation lattices are
 
     L(c) = ⟨τ, s + c·τ⟩,   c ∈ {0, c₁, c₂, c₁ + c₂},  c₁ = i/q_b,  c₂ = j/q_t  (i, j integers),
 
-all of covolume 4AB. One edge takes at most two reflections, and the corners fit only with odd q_b and q_t
-([4], docs/construction.md section 5) **[proved]** in the notch-and-tab model. So one translate pair gives at most four
-boxes.
+all of covolume 4AB. One edge takes at most two reflections (stated in [2]), and the corners fit only with odd q_b and
+q_t (argued in [4], docs/construction.md section 5) **[proved]** in the notch-and-tab model. So one translate pair
+gives at most four boxes.
 
 ## 2. The fifth folding
 
