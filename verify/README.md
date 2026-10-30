@@ -21,6 +21,7 @@ from the repository root:
 
 ```
 git clone https://github.com/hidny/CuboidSimplePhaseNetSearch
+git -C CuboidSimplePhaseNetSearch checkout 3142fef   # the version tested here
 javac -d classes -sourcepath CuboidSimplePhaseNetSearch/src verify/CheckNet.java
 java -Xss512m -cp classes CheckNet data/net-622-a-cells.txt 1,1,155 1,2,103 1,3,77 1,5,51 1,7,38 1,11,25 1,12,23 2,3,61 2,5,43 2,7,33 2,13,19 3,5,37 3,7,29 3,13,17 5,7,23 5,9,19 5,11,16 7,8,17 7,11,13
 ```

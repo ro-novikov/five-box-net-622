@@ -1,11 +1,11 @@
 # Construction of the five-box nets
 
-Labels: **[proved]** has a proof in the working notes of this project, **[computed]** was checked by computation on the
-stated range, **[open]** is not settled.
+Labels: **[proved]** has a proof in [multi-box-nets](https://github.com/ro-novikov/multi-box-nets) (`docs/proofs.md`), **[computed]** was
+checked by computation on the stated range, **[open]** is not settled.
 
 ## 1. Strip foldings and pillowcases
 
-A *strip* (blank) here is a polyomino whose boundary is: end 1, bottom edge, end 2, top edge. A *folding* glues the
+A *strip* here is a polyomino whose boundary is: end 1, bottom edge, end 2, top edge. A *folding* glues the
 boundary to itself piece by piece, each piece either to a translated copy (a translate pair) or to itself by a half
 turn (a reflection of the boundary word, a palindrome). With one translate pair and four palindromes the boundary
 closes into a flat doubled rectangle, a *pillowcase* A × B (Conway's criterion; [1], [4]). Notches and tabs at its four
@@ -17,8 +17,9 @@ bottom and q_t on the top, the four translation lattices are
 
     L(c) = ⟨τ, s + c·τ⟩,   c ∈ {0, c₁, c₂, c₁ + c₂},  c₁ = i/q_b,  c₂ = j/q_t  (i, j integers),
 
-all of covolume 4AB. One edge takes at most two reflections: stated in [2]; **[proved]** for corner pieces of one
-size in a linear model of the corners, and **[computed]** for notches and tabs (all even edge lengths up to 120).
+all of covolume 4AB. One edge takes at most two reflections: stated in [2]; **[proved]** for notches and tabs and, for
+corner pieces of one size, in a linear model of the corners (multi-box-nets, `docs/proofs.md`, Theorem 4 and
+Corollary 5).
 With notches and tabs the corners fit only with odd q_b and q_t (argued in [4], docs/construction.md section 5)
 **[proved]**. So, in these models, one translate pair gives at most four boxes.
 
